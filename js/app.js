@@ -10,7 +10,9 @@
  var allFeeds = [
      {
          name: 'Udacity Blog',
+         //name: null,
          url: 'http://blog.udacity.com/feed'
+         //url: null;
      }, {
          name: 'CSS Tricks',
          url: 'http://feeds.feedburner.com/CssTricks'
