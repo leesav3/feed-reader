@@ -124,6 +124,7 @@ $(function() {
             });
          });
 
+         // compare old feed with new feed to make sure they are not the same
          it('content changes on every load', function(done) {
             expect(newFeed).not.toEqual(oldFeed);
             done();
